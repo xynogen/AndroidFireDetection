@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="@color/backgroundBlue"
+    tools:context=".Splash">
+
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/appTitle"
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        android:orientation="vertical" android:gravity="center_horizontal">
+
+        <ImageView android:contentDescription="@string/wave" android:id="@+id/Wave"
+            android:layout_width="match_parent" android:layout_height="match_parent"
+            android:background="@drawable/ic_wave" />
+
+        <ImageView android:id="@+id/imageView" android:contentDescription="Logo l2dikti"
+            android:layout_width="200sp" android:layout_height="200sp"
+            android:src="@mipmap/ic_l2dikti_foreground" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/Wave" />
+
+        <TextView android:id="@+id/App" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="@string/app_name"
+            android:textColor="@color/white" android:textSize="40sp" android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+        <TextView android:layout_width="200sp" android:layout_height="wrap_content"
+            android:layout_below="@id/imageView" android:text="Aplikasi Pendeteksi Api"
+            android:textAlignment="center" android:textColor="@color/white" android:textSize="15sp"
+            android:textStyle="bold" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/App" android:gravity="center_horizontal" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>

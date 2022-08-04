@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "635597877121",
+    "project_id": "firedetection-970d0",
+    "storage_bucket": "firedetection-970d0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:635597877121:android:ab2571ce221093c68cc280",
+        "android_client_info": {
+          "package_name": "com.polsri.firedetection"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "635597877121-nqml7hilaavmq901ljo0cipu2d2thrlg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_PnVh93WitHnSyJ8GZgiOyuJIg1GiHZg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "635597877121-nqml7hilaavmq901ljo0cipu2d2thrlg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
